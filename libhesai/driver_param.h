@@ -144,7 +144,7 @@ typedef struct InputParam
 
   std::string ros_recv_correction_topic = NULL_TOPIC;
   std::string ros_recv_packet_topic = NULL_TOPIC;
-  double target_fps = 10;
+  float target_fps = 10;
 
 
 } InputParam;
